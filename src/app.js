@@ -9,7 +9,7 @@ app.use(express.json());
 
 //parametros de conexion
 var conexion = mysql.createConnection({
-    host:'localhost',
+    host:'host.docker.internal',
     user:'nlamprea',
     password:'123456',
     database:'backenda'
